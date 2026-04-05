@@ -17,7 +17,7 @@ html {
     font-size: 3rem;
     font-weight: 600;
     font-family: "ubuntu", sans-serif;
-    margin-bottom: 3.8rem;
+    /* margin-bottom: 3.8rem; */
     padding-bottom: 3.8rem;
     position: relative;
 }
@@ -162,7 +162,6 @@ nav li:hover {
 
 #hero .hero_content .txt-3 {
     font-size: 2rem;
-    color:#007eff;
 }
 
 /*about section*/
@@ -193,9 +192,9 @@ section {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
-.content_section {
+/* .content_section {
     padding: 2.5rem 0;
-}
+} */
 
 .header_content {
     display: flex;
@@ -236,7 +235,7 @@ section {
     text-align: center;
     font-size: 3rem;
     font-weight: 500;
-    margin-bottom: 3.8rem;
+    /* margin-bottom: 3.8rem; */
     padding-bottom: 3.8rem;
     color: #fff;
     position: relative;
@@ -310,115 +309,24 @@ section {
 }
 
 .skills_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 3rem;
-
+    display: block;
     width: 100%;
 }
 
-.skill_content h2 {
-    font-size: 2rem;
-    padding-bottom: 1.5rem;
-}
-
-.skill_content p {
+.skill-button {
+    display: inline-block;
+    padding: 0.3rem 1rem;
+    background-color: #27ae60;
+    color: white;
+    border-radius: 5px;
     font-size: 1rem;
-    text-align: justify;
-    line-height: 1.9;
-}
-
-.skills_progress .info {
-    display: flex;
-    justify-content: space-between;
-    line-height: 1.8;
-}
-
-.skills_progress .progress {
-    margin-bottom: 1rem;
-}
-
-.skills_progress .info span {
-    font-size: 1.2rem;
     font-weight: 500;
+    margin: 0.2rem 0.5rem;
+    transition: all 0.3s ease;
 }
 
-.skills_progress .line_css {
-    height: 0.3rem;
-    width: 100%;
-    background-color: #f4f4f4;
-    margin: 0.5rem 0;
-    position: relative;
-}
-
-.skills_progress .line_css::before {
-    content: "";
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background: #27ae60;
-    left: 0;
-    top: 0;
-}
-
-.skills_progress .html::before {
-    content: "";
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background: #27ae60;
-    left: 0;
-    top: 0;
-}
-
-.skills_progress .css::before {
-    content: "";
-    position: absolute;
-    width: 75%;
-    height: 100%;
-    background: #27ae60;
-    left: 0;
-    top: 0;
-}
-
-.skills_progress .js::before {
-    content: "";
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background: #27ae60;
-    left: 0;
-    top: 0;
-}
-
-.skills_progress .sql::before {
-    content: "";
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background: #27ae60;
-    left: 0;
-    top: 0;
-}
-
-.skills_progress .python::before {
-    content: "";
-    position: absolute;
-    width: 90%;
-    height: 100%;
-    background: #27ae60;
-    left: 0;
-    top: 0;
-}
-
-.skills_progress .github::before {
-    content: "";
-    position: absolute;
-    width: 60%;
-    height: 100%;
-    background: #27ae60;
-    left: 0;
-    top: 0;
+.skill-button:hover {
+    background-color: #229954;
 }
 
 #certificates {
@@ -430,7 +338,7 @@ section {
     text-align: center;
     font-size: 3rem;
     font-weight: 500;
-    margin-bottom: 3.8rem;
+    /* margin-bottom: 3.8rem; */
     padding-bottom: 3.8rem;
     color: #fff;
     position: relative;
@@ -473,7 +381,7 @@ section {
     text-align: center;
     font-size: 3rem;
     font-weight: 500;
-    margin-bottom: 3.8rem;
+    /* margin-bottom: 3.8rem; */
     padding-bottom: 3.8rem;
     position: relative;
 }
